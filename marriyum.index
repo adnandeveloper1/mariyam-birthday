@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+<title>For Mariyam Fatima ❤️</title>
+<meta name="theme-color" content="#160812">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+<style>
+*{box-sizing:border-box;margin:0;padding:0}
+:root{
+  --bg:#090509;--rose:#ff4f87;--pink:#ff86ad;--soft:#ffd5e2;
+  --glass:rgba(255,255,255,.055);--line:rgba(255,160,190,.18);
+}
+html{scroll-behavior:smooth}
+body{
+  background:radial-gradient(circle at 50% -10%,#421326 0,#160812 28%,#090509 70%);
+  color:#fff;font-family:Inter,sans-serif;overflow-x:hidden;
+}
+body:before{
+ content:"";position:fixed;inset:0;pointer-events:none;opacity:.18;
+ background-image:radial-gradient(#fff 1px,transparent 1px);background-size:45px 45px;
+ mask-image:linear-gradient(to bottom,black,transparent 80%);
+}
+button,input{font:inherit}
+.hidden{display:none!important}
+.serif{font-family:"Cormorant Garamond",serif}
+.glass{
+ background:linear-gradient(145deg,rgba(255,255,255,.075),rgba(255,255,255,.025));
+ border:1px solid var(--line);backdrop-filter:blur(18px);-webkit-backdrop-filter:blur(18px);
+ box-shadow:0 18px 70px rgba(0,0,0,.28);
+}
+#petals,#hearts{position:fixed;inset:0;pointer-events:none;z-index:2;overflow:hidden}
+.float{
+ position:absolute;bottom:-40px;animation:rise linear forwards;opacity:.75;
+ filter:drop-shadow(0 0 8px rgba(255,80,140,.45));
+}
+@keyframes rise{to{transform:translateY(-110vh) rotate(360deg);opacity:0}}
+#intro{
+ position:fixed;inset:0;z-index:50;display:flex;align-items:center;justify-content:center;
+ padding:24px;background:radial-gradient(circle,#381021,#0a0508 68%);
+ transition:1s ease;
+}
+.intro-card{width:min(500px,100%);text-align:center}
+.mini-heart{
+ width:92px;height:92px;margin:0 auto 26px;border-radius:50%;
+ display:grid;place-items:center;font-size:40px;
+ background:radial-gradient(circle,#ff9bbb,#d91f63 55%,#64102f);
+ box-shadow:0 0 0 12px rgba(255,100,150,.07),0 0 80px rgba(255,55,120,.42);
+ animation:pulse 2s infinite;
+}
+@keyframes pulse{50%{transform:scale(1.08);box-shadow:0 0 0 22px rgba(255,100,150,.02),0 0 100px rgba(255,55,120,.6)}}
+.kicker{font-size:11px;letter-spacing:4px;text-transform:uppercase;color:#ff9fbd}
+.intro-card h1{font-size:clamp(44px,13vw,78px);line-height:.86;margin:14px 0}
+.intro-card h1 span{color:var(--pink);font-style:italic}
+.intro-card p{color:#c9adb7;font-size:13px;line-height:1.8;max-width:380px;margin:0 auto 25px}
+.start{
+ border:0;border-radius:999px;padding:15px 28px;color:white;cursor:pointer;
+ background:linear-gradient(90deg,#e52e70,#ff709d);box-shadow:0 12px 35px rgba(229,46,112,.3);
+ transition:.25s;
+}
+.start:hover{transform:translateY(-3px) scale(1.02)}
+#site{max-width:760px;margin:auto;position:relative;z-index:3}
+nav{
+ position:fixed;z-index:20;left:50%;transform:translateX(-50%);bottom:16px;
+ width:min(440px,calc(100% - 28px));padding:8px;border-radius:999px;
+ display:flex;justify-content:space-around;background:rgba(18,7,13,.78);backdrop-filter:blur(20px);
+ border:1px solid rgba(255,150,180,.15);
+}
+nav button{border:0;background:none;color:#9e7d89;padding:10px 14px;border-radius:50%;cursor:pointer}
+nav button:hover{color:white;background:rgba(255,100,150,.1)}
+section{padding:80px 20px}
+.hero{min-height:100svh;display:grid;place-items:center;text-align:center;padding-top:70px}
+.badge{display:inline-flex;gap:8px;align-items:center;padding:8px 13px;border:1px solid var(--line);border-radius:99px;color:#ffc1d3;font-size:10px;letter-spacing:2px;text-transform:uppercase;background:rgba(255,255,255,.03)}
+.hero h1{font-size:clamp(60px,17vw,120px);line-height:.76;margin:28px 0 18px;font-weight:600}
+.hero h1 span{display:block;color:var(--pink);font-style:italic}
+.hero .sub{color:#bca5ae;line-height:1.8;font-size:13px;max-width:500px;margin:auto}
+.scroll{margin-top:42px;color:#765965;font-size:10px;letter-spacing:3px;text-transform:uppercase}
+.scroll b{display:block;color:#ff759f;font-size:18px;margin-top:8px}
+.title{text-align:center;margin-bottom:28px}
+.title small{color:var(--pink);letter-spacing:3px;text-transform:uppercase;font-size:10px}
+.title h2{font-size:clamp(36px,10vw,58px);line-height:.9;margin-top:10px}
+.card{border-radius:28px;padding:28px;margin:16px 0}
+.letter{font-family:"Cormorant Garamond",serif;font-size:22px;line-height:1.55;color:#f8e8ed}
+.letter p{margin-bottom:18px}
+.signature{text-align:right;color:#ff8ead;font-size:18px}
+.counter{display:grid;grid-template-columns:repeat(4,1fr);gap:8px}
+.unit{padding:18px 6px;text-align:center;border-radius:18px;background:rgba(0,0,0,.3);border:1px solid rgba(255,160,190,.1)}
+.unit strong{display:block;font-size:24px;color:#fff}.unit span{font-size:8px;color:#9c818b;text-transform:uppercase;letter-spacing:1px}
+.reason-grid{display:grid;grid-template-columns:1fr 1fr;gap:12px}
+.reason{
+ min-height:150px;padding:22px;border-radius:22px;cursor:pointer;transition:.35s;
+ background:linear-gradient(145deg,rgba(255,89,139,.09),rgba(255,255,255,.025));border:1px solid var(--line)
+}
+.reason:hover{transform:translateY(-5px);border-color:rgba(255,120,160,.5)}
+.reason .icon{font-size:28px;margin-bottom:15px}.reason h3{font-family:"Cormorant Garamond";font-size:24px}.reason p{font-size:11px;color:#ad969f;line-height:1.6;margin-top:6px}
+.timeline{position:relative;padding-left:25px}.timeline:before{content:"";position:absolute;left:5px;top:4px;bottom:4px;width:1px;background:linear-gradient(#ff4f87,transparent)}
+.event{position:relative;margin-bottom:28px}.event:before{content:"❤";position:absolute;left:-26px;top:0;font-size:10px;color:#ff6695}
+.event b{font-family:"Cormorant Garamond";font-size:25px}.event p{font-size:11px;color:#aa929c;line-height:1.6;margin-top:3px}
+.gift{
+ text-align:center;padding:45px 25px;border-radius:30px;
+ background:radial-gradient(circle at 50% 0,rgba(255,83,137,.2),transparent 55%),var(--glass);
+}
+.gift-box{font-size:75px;cursor:pointer;display:inline-block;animation:float 2.5s ease-in-out infinite}
+@keyframes float{50%{transform:translateY(-12px) rotate(3deg)}}
+.gift h3{font-family:"Cormorant Garamond";font-size:35px;margin:12px}
+.gift p{font-size:11px;color:#aa929c;line-height:1.7}
+#surprise{margin-top:20px;max-height:0;overflow:hidden;transition:max-height 1s ease}
+#surprise.open{max-height:800px}
+.surprise-inner{padding:25px;border-radius:22px;background:rgba(255,79,135,.08);border:1px solid var(--line);font-family:"Cormorant Garamond";font-size:22px;line-height:1.5;color:#ffe6ed;text-align:left}
+.photo-box{
+ border:1px dashed rgba(255,150,180,.3);border-radius:25px;padding:35px;text-align:center;color:#9f858f;
+}
+.photo-box input{display:none}.photo-label{display:inline-block;margin-top:15px;padding:12px 20px;border-radius:99px;background:#ff4f87;color:#fff;font-size:11px;cursor:pointer}
+#gallery{display:grid;grid-template-columns:repeat(2,1fr);gap:10px;margin-top:15px}
+#gallery img{width:100%;aspect-ratio:1;border-radius:18px;object-fit:cover;border:1px solid var(--line)}
+footer{text-align:center;padding:40px 20px 120px;color:#6f5862;font-size:10px;letter-spacing:1px}
+#toast{position:fixed;top:20px;left:50%;transform:translate(-50%,-150%);z-index:100;padding:13px 20px;border-radius:99px;background:#24101a;border:1px solid var(--line);font-size:11px;transition:.5s;white-space:nowrap}
+#toast.show{transform:translate(-50%,0)}
+@media(max-width:420px){.counter{grid-template-columns:repeat(2,1fr)}.reason-grid{grid-template-columns:1fr}.card{padding:22px}}
+
+.reveal-card.locked-card{
+  display:none;
+  opacity:0;
+  transform:translateY(35px) scale(.97);
+}
+.reveal-card.show-card{
+  display:block;
+  animation:cardReveal .8s cubic-bezier(.2,.8,.2,1) forwards;
+}
+@keyframes cardReveal{
+  to{opacity:1;transform:translateY(0) scale(1)}
+}
+.next-wrap{text-align:center;margin-top:28px}
+.next-btn{
+ border:1px solid rgba(255,150,180,.3);background:linear-gradient(90deg,rgba(255,79,135,.18),rgba(255,255,255,.05));
+ color:#ffd5e2;border-radius:999px;padding:13px 22px;font-size:11px;cursor:pointer;
+ transition:.3s;box-shadow:0 10px 35px rgba(255,50,120,.08)
+}
+.next-btn:hover{transform:translateY(-3px);border-color:#ff719c}
+.progress{text-align:center;color:#735b65;font-size:9px;letter-spacing:2px;text-transform:uppercase;margin-top:10px}
+</style>
+</head>
+<body>
+<div id="petals"></div><div id="hearts"></div><div id="toast">❤️ A little surprise for you</div>
+
+<div id="intro">
+ <div class="intro-card">
+  <div class="mini-heart">❤️️</div>
+  <div class="kicker">A little website made with a lot of love</div>
+  <h1 class="serif">For <span>Mariyam</span></h1>
+  <p>Some birthdays deserve more than a simple “Happy Birthday”. So I made you a little world of my own.</p>
+  <button class="start" onclick="enterSite()">Open Your Surprise ✨</button>
+  <p style="font-size:10px;margin-top:18px;color:#765965">04 • 10 • 2004 &nbsp;|&nbsp; Made by Adnan ❤️</p>
+ </div>
+</div>
+
+<div id="site">
+<section class="hero" id="home">
+ <div>
+  <div class="badge">✦ 04 October • Your Day ✦</div>
+  <h1 class="serif">Happy Birthday,<span>Mariyam Fatima</span></h1>
+  <p class="sub">The world got a little more beautiful on 04 October 2004. And somehow, my world became even more beautiful because you are in it.</p>
+  <div class="scroll">scroll slowly <b>↓</b></div>
+ </div>
+</section>
+
+<section id="story" class="reveal-card active-card show-card">
+ <div class="title"><small>Since the day you arrived</small><h2 class="serif">Your time on Earth ✨</h2></div>
+ <div class="card glass">
+  <div class="counter">
+   <div class="unit"><strong id="years">00</strong><span>Years</span></div>
+   <div class="unit"><strong id="days">000</strong><span>Days</span></div>
+   <div class="unit"><strong id="hours">00</strong><span>Hours</span></div>
+   <div class="unit"><strong id="seconds">00</strong><span>Seconds</span></div>
+  </div>
+  <p style="text-align:center;color:#806873;font-size:9px;margin-top:15px">Every second of your story is worth celebrating.</p><div class="next-wrap"><button class="next-btn" onclick="nextCard()">Open My Letter 💌</button><div class="progress">01 / 06</div></div>
+ </div>
+</section>
+
+<section class="reveal-card locked-card">
+ <div class="title"><small>A letter for you</small><h2 class="serif">If words could hug…</h2></div>
+ <div class="card glass letter">
+  <p>My dearest Mariyam,</p>
+  <p>Today isn't just another date on the calendar. It is the day a person came into this world who became incredibly special to me.</p>
+  <p>I could write thousands of lines of code, build beautiful apps, and solve complicated problems — but somehow, when it comes to telling you what you mean to me, words still feel too small.</p>
+  <p>I hope this new year of your life brings you the kind of happiness that stays, the kind of peace that feels like home, and countless reasons to smile.</p>
+  <p>And if life ever gets difficult, I hope you remember that somewhere in this noisy world, there is someone who will always want to see you happy.</p>
+  <p>Happy Birthday, meri jaan. ❤️</p>
+  <div class="signature">— Yours, Adnan</div><div class="next-wrap"><button class="next-btn" onclick="nextCard()">There's More For You ✨</button><div class="progress">02 / 06</div></div>
+ </div>
+</section>
+
+<section class="reveal-card locked-card">
+ <div class="title"><small>Little things I love</small><h2 class="serif">Why you're special 💗</h2></div>
+ <div class="reason-grid">
+  <div class="reason" onclick="heartBurst()"><div class="icon">🌷</div><h3>Your smile</h3><p>It has a way of making an ordinary moment feel special.</p></div>
+  <div class="reason" onclick="heartBurst()"><div class="icon">✨</div><h3>Your presence</h3><p>Some people don't need to do anything. Their presence is enough.</p></div>
+  <div class="reason" onclick="heartBurst()"><div class="icon">🫶</div><h3>Your heart</h3><p>The kindness and warmth in you are things I genuinely treasure.</p></div>
+  <div class="reason" onclick="heartBurst()"><div class="icon">🌙</div><h3>Your little ways</h3><p>The tiny things you probably don't notice are sometimes my favorites.</p></div>
+ </div><div class="next-wrap"><button class="next-btn" onclick="nextCard()">Continue Our Story 🌙</button><div class="progress">03 / 06</div></div>
+</section>
+
+<section class="reveal-card locked-card">
+ <div class="title"><small>Your story</small><h2 class="serif">A beautiful timeline</h2></div>
+ <div class="card glass timeline">
+  <div class="event"><b>04 October 2004</b><p>The world welcomed Mariyam Fatima. ❤️</p></div>
+  <div class="event"><b>All the years after</b><p>A thousand little moments, smiles, memories and chapters shaped the person you are today.</p></div>
+  <div class="event"><b>04 October — Today</b><p>Another chapter begins. May this one be softer, happier and full of beautiful surprises.</p></div>
+  <div class="event"><b>Everything ahead</b><p>Whatever the future brings, I hope you always have a reason to smile.</p></div><div class="next-wrap"><button class="next-btn" onclick="nextCard()">Open Our Memories 📸</button><div class="progress">04 / 06</div></div>
+ </div>
+</section>
+
+<section class="reveal-card locked-card">
+ <div class="title"><small>Our little memories</small><h2 class="serif">Add your photos 📸</h2></div>
+ <div class="photo-box glass">
+  <div style="font-size:45px">🖼️</div>
+  <p style="margin-top:10px;font-size:12px;line-height:1.7">Select your favorite pictures and they will appear here as a private little memory wall.</p>
+  <label class="photo-label">Choose Photos ❤️<input id="photos" type="file" accept="image/*" multiple></label>
+  <div id="gallery"></div><div class="next-wrap"><button class="next-btn" onclick="nextCard()">One Last Surprise 🎁</button><div class="progress">05 / 06</div></div>
+ </div>
+</section>
+
+<section class="reveal-card locked-card">
+ <div class="gift">
+  <div class="title" style="margin-bottom:10px"><small>One last thing</small></div>
+  <div class="gift-box" onclick="openGift()">🎁</div>
+  <h3 class="serif">There is something for you...</h3>
+  <p>Don't just look at the gift. Tap it. ❤️</p>
+  <div id="surprise">
+    <div class="surprise-inner">
+      If I could give you one thing today, I would give you the ability to see yourself through my eyes — just for a moment — so you could understand how incredibly precious you are to me. ❤️<br><br>
+      Main yeh baat bohot ache se janta hoon ke tumhein apna MS complete karna hai, aur jab tak tumhara woh maqsad pura nahi hota, tum shaadi ke liye nahi kehna chahtiin... Tumhari is khwahish, tumhari is zaroorat aur tumhare har faislay ki main dil se izzat karta hoon. Maine tumhare sath yeh pur-aman aisi agreement ki hai kyunki mere liye tumhari khushi, tumhari yeh 'haan' aur tumhara mukammal hona sabse pehle aur sabse ziyaada important hai! ✨<br><br>
+      <span style="font-size:18px">Happy Birthday, meri jaan. Tumhari har manzil par mera sath hamesha tumhare sath hai, kyunki tumhari khushi hi meri asal jeet hai. ❤️</span>
+    </div>
+  </div>
+ </div>
+</section>
+
+<footer>
+ Made with ❤️, patience & a little bit of code by Adnan<br><br>
+ <span>For Mariyam Fatima • 04.10</span>
+</footer>
+</div>
+
+<nav>
+ <button onclick="go('home')">🏠</button>
+ <button onclick="go('story')">⏳</button>
+ <button onclick="go('story')">💌</button>
+ <button onclick="go('home')">❤️</button>
+</nav>
+
+<script>
+const birth=new Date("2004-10-04T00:00:00");
+function updateAge(){
+ const now=new Date(), diff=now-birth;
+ const totalSec=Math.floor(diff/1000);
+ const years=Math.floor(totalSec/(365.2425*86400));
+ const afterYears=totalSec-Math.floor(years*365.2425*86400);
+ const days=Math.floor(afterYears/86400);
+ const hours=Math.floor((afterYears%86400)/3600);
+ const seconds=totalSec%60;
+ document.getElementById("years").textContent=String(years).padStart(2,"0");
+ document.getElementById("days").textContent=String(days).padStart(3,"0");
+ document.getElementById("hours").textContent=String(hours).padStart(2,"0");
+ document.getElementById("seconds").textContent=String(seconds).padStart(2,"0");
+}
+updateAge();setInterval(updateAge,1000);
+
+function enterSite(){
+ const intro=document.getElementById("intro");
+ intro.style.opacity="0";intro.style.pointerEvents="none";
+ setTimeout(()=>intro.remove(),1000);
+ confetti(180); toast("Welcome to your little world, Mariyam ❤️");
+}
+function go(id){document.getElementById(id).scrollIntoView({behavior:"smooth"})}
+function toast(msg){
+ const t=document.getElementById("toast");t.textContent=msg;t.classList.add("show");
+ setTimeout(()=>t.classList.remove("show"),2200);
+}
+function openGift(){
+ document.getElementById("surprise").classList.add("open");
+ confetti(220);toast("This one comes straight from my heart ❤️");
+ setTimeout(heartBurst,250);
+}
+function heartBurst(){
+ for(let i=0;i<18;i++){
+  const h=document.createElement("div");h.className="float";h.textContent=["❤","💕","💗","✨"][Math.floor(Math.random()*4)];
+  h.style.left=(20+Math.random()*60)+"%";h.style.fontSize=(12+Math.random()*20)+"px";
+  h.style.animationDuration=(1.8+Math.random()*1.8)+"s";
+  document.getElementById("hearts").appendChild(h);setTimeout(()=>h.remove(),4000);
+ }
+}
+function petals(){
+ const p=document.createElement("div");p.className="float";p.textContent="🌸";
+ p.style.left=Math.random()*100+"%";p.style.fontSize=(10+Math.random()*14)+"px";
+ p.style.animationDuration=(5+Math.random()*7)+"s";
+ document.getElementById("petals").appendChild(p);setTimeout(()=>p.remove(),13000);
+}
+setInterval(petals,900);
+
+function confetti(count=100){
+ const colors=["#ff4f87","#ff9fbd","#ffffff","#ffd5e2"];
+ for(let i=0;i<count;i++){
+  const c=document.createElement("div");c.style.cssText=`position:fixed;z-index:90;left:50%;top:50%;width:7px;height:11px;background:${colors[i%4]};border-radius:2px;pointer-events:none`;
+  document.body.appendChild(c);
+  const x=(Math.random()-.5)*innerWidth*1.5,y=(Math.random()-.5)*innerHeight*1.5;
+  c.animate([{transform:"translate(-50%,-50%) rotate(0)",opacity:1},{transform:`translate(${x}px,${y}px) rotate(${Math.random()*900}deg)`,opacity:0}],{duration:1800+Math.random()*1600,easing:"cubic-bezier(.1,.7,.2,1)"});
+  setTimeout(()=>c.remove(),3500);
+ }
+}
+
+let currentCard = 0;
+function nextCard(){
+ const cards = [...document.querySelectorAll(".reveal-card")];
+ const current = cards[currentCard];
+ if(!current) return;
+ let next = current.nextElementSibling;
+ while(next && !next.classList.contains("reveal-card")) next = next.nextElementSibling;
+ if(!next){
+   next = cards[currentCard + 1];
+ }
+ if(next){
+   currentCard++;
+   next.classList.remove("locked-card");
+   next.classList.add("show-card");
+   setTimeout(()=>next.scrollIntoView({behavior:"smooth",block:"start"}),120);
+   heartBurst();
+ }else{
+   toast("You reached the end of our little story ❤️");
+   heartBurst();
+ }
+}
+
+document.getElementById("photos").addEventListener("change",e=>{
+ const gallery=document.getElementById("gallery");gallery.innerHTML="";
+ [...e.target.files].slice(0,12).forEach(file=>{
+  const img=document.createElement("img");img.src=URL.createObjectURL(file);gallery.appendChild(img);
+ });
+ if(e.target.files.length)toast("Your memories look beautiful here ❤️");
+});
+document.addEventListener("click",e=>{
+ if(e.target.closest("button,.photo-label,.gift-box,.reason")) return;
+ if(Math.random()<.35)heartBurst();
+});
+</script>
+</body>
+</html>
